@@ -1,0 +1,23 @@
+node-sellside-emitter (1.2.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 19 Mar 2020 21:15:26 +0100
+
+node-sellside-emitter (1.2.1-2) unstable; urgency=medium
+
+  * Change Arch:any to Arch:all (default of dh-make as npm2deb don't support @)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 Jan 2018 16:55:27 +0530
+
+node-sellside-emitter (1.2.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #886823)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 10 Jan 2018 15:52:52 +0530

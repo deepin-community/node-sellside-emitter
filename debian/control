@@ -1,0 +1,26 @@
+Source: node-sellside-emitter
+Maintainer: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12)
+ , mocha
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-sellside-emitter
+Vcs-Git: https://salsa.debian.org/js-team/node-sellside-emitter.git
+Homepage: https://github.com/sellside/emitter
+Rules-Requires-Root: no
+
+Package: node-sellside-emitter
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , ${shlibs:Depends}
+ , nodejs
+Description: Event emitter for node.js projects
+ This is based on component-emitter, with some changes and a couple of new
+ methods. That project seems to no longer be maintained.
+ .
+ Node.js is an event-based server-side JavaScript engine.
